@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="custom-pointer">X</div>
+    <div class="container">
+        <div class="announcement">
+            Tic Tac Toe
+        </div>
+        <div class="game-board">
+            <div id="0" class="spot"></div>
+            <div id="1" class="border-left spot"></div>
+            <div id="2" class="border-left spot"></div>
+            <div id="3" class="border-top spot"></div>
+            <div id="4" class="border-left border-top spot"></div>
+            <div id="5" class="border-left border-top spot"></div>
+            <div id="6" class="border-top spot"></div>
+            <div id="7" class="border-left border-top spot"></div>
+            <div id="8" class="border-left border-top spot"></div>
+        </div>
+        <form action="">
+            <p class="note">Click on a cell to Start / Restart!</p>
+            <div class="inputs">
+                <div>
+                    <label for="x-player">X</label>
+                    <input id="x-player" placeHolder="X Player" maxlength="15" type="text">
+                </div>
+                <div>
+                    <label for="o-player">O</label>
+                    <input id="o-player" placeHolder="O Player" maxlength="15" type="text">
+                </div>
+            </div>
+            <button id="save-btn" type="submit">✔</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
